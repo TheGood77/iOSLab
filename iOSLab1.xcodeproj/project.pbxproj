@@ -14,6 +14,12 @@
 		DC8C18DE2AF645800096B7DB /* iOSLab1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C18DD2AF645800096B7DB /* iOSLab1Tests.swift */; };
 		DC8C18E82AF645800096B7DB /* iOSLab1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C18E72AF645800096B7DB /* iOSLab1UITests.swift */; };
 		DC8C18EA2AF645800096B7DB /* iOSLab1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C18E92AF645800096B7DB /* iOSLab1UITestsLaunchTests.swift */; };
+		DCA86F252B0348360054C6D2 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCF278742B027DB70089ED4C /* Poppins-Regular.ttf */; };
+		DCA86F262B0348390054C6D2 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCF278732B027DB70089ED4C /* Poppins-Bold.ttf */; };
+		DCA86F272B03483C0054C6D2 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCF278752B027DB70089ED4C /* Poppins-SemiBold.ttf */; };
+		DCA86F292B0348690054C6D2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DCA86F282B0348690054C6D2 /* Localizable.xcstrings */; };
+		DCD78B142AFF96700027BC03 /* UserHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD78B132AFF96700027BC03 /* UserHeader.swift */; };
+		DCD78B202AFF9D9F0027BC03 /* CardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		DC8C18E32AF645800096B7DB /* iOSLab1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLab1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8C18E72AF645800096B7DB /* iOSLab1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLab1UITests.swift; sourceTree = "<group>"; };
 		DC8C18E92AF645800096B7DB /* iOSLab1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLab1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCA86F282B0348690054C6D2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DCD78B132AFF96700027BC03 /* UserHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeader.swift; sourceTree = "<group>"; };
+		DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElement.swift; sourceTree = "<group>"; };
+		DCF278732B027DB70089ED4C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		DCF278742B027DB70089ED4C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		DCF278752B027DB70089ED4C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../Downloads/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,14 @@
 		DC8C18CB2AF6457F0096B7DB /* iOSLab1 */ = {
 			isa = PBXGroup;
 			children = (
+				DCF278722B027D830089ED4C /* Fonts */,
 				DC8C18CC2AF6457F0096B7DB /* iOSLab1App.swift */,
 				DC8C18CE2AF6457F0096B7DB /* ContentView.swift */,
+				DCD78B132AFF96700027BC03 /* UserHeader.swift */,
+				DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */,
 				DC8C18D02AF645800096B7DB /* Assets.xcassets */,
 				DC8C18D22AF645800096B7DB /* Preview Content */,
+				DCA86F282B0348690054C6D2 /* Localizable.xcstrings */,
 			);
 			path = iOSLab1;
 			sourceTree = "<group>";
@@ -125,6 +141,16 @@
 				DC8C18E92AF645800096B7DB /* iOSLab1UITestsLaunchTests.swift */,
 			);
 			path = iOSLab1UITests;
+			sourceTree = "<group>";
+		};
+		DCF278722B027D830089ED4C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DCF278732B027DB70089ED4C /* Poppins-Bold.ttf */,
+				DCF278742B027DB70089ED4C /* Poppins-Regular.ttf */,
+				DCF278752B027DB70089ED4C /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA86F272B03483C0054C6D2 /* Poppins-SemiBold.ttf in Resources */,
+				DCA86F252B0348360054C6D2 /* Poppins-Regular.ttf in Resources */,
+				DCA86F292B0348690054C6D2 /* Localizable.xcstrings in Resources */,
 				DC8C18D42AF645800096B7DB /* Preview Assets.xcassets in Resources */,
 				DC8C18D12AF645800096B7DB /* Assets.xcassets in Resources */,
+				DCA86F262B0348390054C6D2 /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD78B202AFF9D9F0027BC03 /* CardElement.swift in Sources */,
 				DC8C18CF2AF6457F0096B7DB /* ContentView.swift in Sources */,
+				DCD78B142AFF96700027BC03 /* UserHeader.swift in Sources */,
 				DC8C18CD2AF6457F0096B7DB /* iOSLab1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +456,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOSLab1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSLab1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +485,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOSLab1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSLab1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
