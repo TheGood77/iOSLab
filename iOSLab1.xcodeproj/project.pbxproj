@@ -20,6 +20,7 @@
 		DCA86F292B0348690054C6D2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DCA86F282B0348690054C6D2 /* Localizable.xcstrings */; };
 		DCD78B142AFF96700027BC03 /* UserHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD78B132AFF96700027BC03 /* UserHeader.swift */; };
 		DCD78B202AFF9D9F0027BC03 /* CardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */; };
+		DCDE35852B03CA660097CD10 /* SearchElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35842B03CA660097CD10 /* SearchElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DCA86F282B0348690054C6D2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		DCD78B132AFF96700027BC03 /* UserHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeader.swift; sourceTree = "<group>"; };
 		DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElement.swift; sourceTree = "<group>"; };
+		DCDE35842B03CA660097CD10 /* SearchElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchElement.swift; sourceTree = "<group>"; };
 		DCF278732B027DB70089ED4C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		DCF278742B027DB70089ED4C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		DCF278752B027DB70089ED4C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../Downloads/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				DC8C18CE2AF6457F0096B7DB /* ContentView.swift */,
 				DCD78B132AFF96700027BC03 /* UserHeader.swift */,
 				DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */,
+				DCDE35842B03CA660097CD10 /* SearchElement.swift */,
 				DC8C18D02AF645800096B7DB /* Assets.xcassets */,
 				DC8C18D22AF645800096B7DB /* Preview Content */,
 				DCA86F282B0348690054C6D2 /* Localizable.xcstrings */,
@@ -291,6 +294,7 @@
 				DC8C18CF2AF6457F0096B7DB /* ContentView.swift in Sources */,
 				DCD78B142AFF96700027BC03 /* UserHeader.swift in Sources */,
 				DC8C18CD2AF6457F0096B7DB /* iOSLab1App.swift in Sources */,
+				DCDE35852B03CA660097CD10 /* SearchElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

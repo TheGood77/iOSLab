@@ -11,10 +11,10 @@ struct UserHeader: View {
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
-                Text(NSLocalizedString("HelloText", comment: ""))
+                Text("HelloText")
                     .font(.custom("Poppins-Regular", size: 16))
                     .foregroundColor(Color("HelloTextColor"))
-                Text(NSLocalizedString("HelloUser", comment: ""))
+                Text("HelloUser")
                     .font(.custom("Poppins-Bold", size: 20))
                     .foregroundColor(Color("HelloUserColor"))
             }
@@ -22,7 +22,7 @@ struct UserHeader: View {
             Image("UserIcon")
                 .clipShape(Circle())
                 .frame(width: 56, height: 56)
-        }.padding()
+        }
     }
 }
 

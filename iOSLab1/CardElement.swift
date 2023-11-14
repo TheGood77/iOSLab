@@ -45,7 +45,6 @@ struct CardElement: View {
         .padding(20)
         .background(Color("BackgroundCardColor"))
         .cornerRadius(12)
-        .padding()
     }
 }
 
