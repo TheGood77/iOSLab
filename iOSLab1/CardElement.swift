@@ -29,14 +29,11 @@ struct CardElement: View {
             Divider().overlay(Color("DividerColor"))
             HStack (spacing: 8) {
                 Image("CalendarIcon")
-                
                 Text("FirstDate")
                 .font(.custom("Poppins-Regular", size: 12))
                 .foregroundColor(.white)
                 .padding(.trailing, 16)
-                
                 Image("ClockIcon")
-                
                 Text("FirstTime")
                 .font(.custom("Poppins-Regular", size: 12))
                 .foregroundColor(.white)

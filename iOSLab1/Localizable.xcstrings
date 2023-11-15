@@ -67,6 +67,39 @@
         }
       }
     },
+    "HospitalElementText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hospital"
+          }
+        }
+      }
+    },
+    "MedicineElementText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medicine"
+          }
+        }
+      }
+    },
+    "ProfileElementText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doctor"
+          }
+        }
+      }
+    },
     "SearchText" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -74,6 +107,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search doctor or health issue"
+          }
+        }
+      }
+    },
+    "VirusElementText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Covid 19"
           }
         }
       }

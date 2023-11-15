@@ -17,7 +17,6 @@ struct SearchElement: View {
             Spacer()
         }
         .padding(16)
-//        .frame(width: 327, alignment: .leading)
         .background(Color("SearchBackgroundColor"))
         .cornerRadius(12)
     }
