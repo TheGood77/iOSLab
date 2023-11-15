@@ -1,6 +1,50 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "DistanceText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.2 KM"
+          }
+        }
+      }
+    },
+    "DoctorListTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Near Doctor"
+          }
+        }
+      }
+    },
+    "DoctorReviews" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4,8 (120 Reviews)"
+          }
+        }
+      }
+    },
+    "DoctorTime" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open at 17.00"
+          }
+        }
+      }
+    },
     "FirstDate" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -107,6 +151,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search doctor or health issue"
+          }
+        }
+      }
+    },
+    "SecondDoctor" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dr. Joseph Brostito"
+          }
+        }
+      }
+    },
+    "SecondDoctorPost" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dental Specialist"
           }
         }
       }

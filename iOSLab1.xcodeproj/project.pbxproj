@@ -22,6 +22,7 @@
 		DCD78B202AFF9D9F0027BC03 /* CardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */; };
 		DCDE35852B03CA660097CD10 /* SearchElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35842B03CA660097CD10 /* SearchElement.swift */; };
 		DCDE35872B03D34D0097CD10 /* CategoryElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35862B03D34D0097CD10 /* CategoryElement.swift */; };
+		DCDE35892B050F0D0097CD10 /* DoctorListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35882B050F0D0097CD10 /* DoctorListElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElement.swift; sourceTree = "<group>"; };
 		DCDE35842B03CA660097CD10 /* SearchElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchElement.swift; sourceTree = "<group>"; };
 		DCDE35862B03D34D0097CD10 /* CategoryElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryElement.swift; sourceTree = "<group>"; };
+		DCDE35882B050F0D0097CD10 /* DoctorListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListElement.swift; sourceTree = "<group>"; };
 		DCF278732B027DB70089ED4C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		DCF278742B027DB70089ED4C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		DCF278752B027DB70089ED4C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../Downloads/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */,
 				DCDE35842B03CA660097CD10 /* SearchElement.swift */,
 				DCDE35862B03D34D0097CD10 /* CategoryElement.swift */,
+				DCDE35882B050F0D0097CD10 /* DoctorListElement.swift */,
 				DC8C18D02AF645800096B7DB /* Assets.xcassets */,
 				DC8C18D22AF645800096B7DB /* Preview Content */,
 				DCA86F282B0348690054C6D2 /* Localizable.xcstrings */,
@@ -295,6 +298,7 @@
 			files = (
 				DCD78B202AFF9D9F0027BC03 /* CardElement.swift in Sources */,
 				DC8C18CF2AF6457F0096B7DB /* ContentView.swift in Sources */,
+				DCDE35892B050F0D0097CD10 /* DoctorListElement.swift in Sources */,
 				DCD78B142AFF96700027BC03 /* UserHeader.swift in Sources */,
 				DC8C18CD2AF6457F0096B7DB /* iOSLab1App.swift in Sources */,
 				DCDE35872B03D34D0097CD10 /* CategoryElement.swift in Sources */,

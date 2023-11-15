@@ -22,7 +22,7 @@ struct CategoryElement: View {
         ]
     
     var body: some View {
-        HStack(spacing: 13) {
+        HStack(alignment: .center) {
             ForEach(categoryList, id: \.self) { category in
                 VStack(spacing: 8) {
                     Image(category.imageUrl)
@@ -34,6 +34,7 @@ struct CategoryElement: View {
                         .foregroundColor(Color("CategoryTextColor"))
                         .font(.custom("Poppins-Regular", size: 15))
                 }
+                .frame(maxWidth: .infinity)
             }
         }
     }

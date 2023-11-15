@@ -13,10 +13,10 @@ struct UserHeader: View {
             VStack(alignment: .leading) {
                 Text("HelloText")
                     .font(.custom("Poppins-Regular", size: 16))
-                    .foregroundColor(Color("HelloTextColor"))
+                    .foregroundColor(Color("GrayTextColor"))
                 Text("HelloUser")
                     .font(.custom("Poppins-Bold", size: 20))
-                    .foregroundColor(Color("HelloUserColor"))
+                    .foregroundColor(Color("BlackTextColor"))
             }
             Spacer()
             Image("UserIcon")
