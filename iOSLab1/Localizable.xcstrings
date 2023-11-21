@@ -1,6 +1,17 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "CalendarText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calendar"
+          }
+        }
+      }
+    },
     "DistanceText" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -111,6 +122,17 @@
         }
       }
     },
+    "HomeText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        }
+      }
+    },
     "HospitalElementText" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -133,6 +155,17 @@
         }
       }
     },
+    "MessageText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Message"
+          }
+        }
+      }
+    },
     "ProfileElementText" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -140,6 +173,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doctor"
+          }
+        }
+      }
+    },
+    "ProfileText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
           }
         }
       }

@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2BDC772B0B0B5F00B9E54C /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BDC762B0B0B5F00B9E54C /* Strings.swift */; };
+		DC2BDC792B0B145100B9E54C /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BDC782B0B145100B9E54C /* CategoryModel.swift */; };
+		DC2BDC7B2B0B14A000B9E54C /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BDC7A2B0B14A000B9E54C /* CategoryData.swift */; };
+		DC6368602B0925A40000DACC /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63685F2B0925A40000DACC /* CardModel.swift */; };
+		DC6368622B0926170000DACC /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6368612B0926170000DACC /* CardData.swift */; };
 		DC7D2C452B05FC6A00BF4D0E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC7D2C422B05FC6A00BF4D0E /* Poppins-SemiBold.ttf */; };
 		DC7D2C462B05FC6A00BF4D0E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC7D2C432B05FC6A00BF4D0E /* Poppins-Bold.ttf */; };
 		DC7D2C472B05FC6A00BF4D0E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC7D2C442B05FC6A00BF4D0E /* Poppins-Regular.ttf */; };
+		DC877DAD2B0B82E400B8ED40 /* DoctorListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC877DAC2B0B82E400B8ED40 /* DoctorListData.swift */; };
+		DC877DAF2B0B833100B8ED40 /* DoctorListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC877DAE2B0B833100B8ED40 /* DoctorListModel.swift */; };
+		DC877DB12B0BA96200B8ED40 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC877DB02B0BA96200B8ED40 /* Nunito-Bold.ttf */; };
+		DC877DB42B0BBEFE00B8ED40 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC877DB32B0BBEFE00B8ED40 /* HomeScreen.swift */; };
+		DC877DB62B0BBF5D00B8ED40 /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC877DB52B0BBF5D00B8ED40 /* CalendarScreen.swift */; };
+		DC877DB82B0BC02C00B8ED40 /* MessageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC877DB72B0BC02C00B8ED40 /* MessageScreen.swift */; };
+		DC877DBA2B0BC04E00B8ED40 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC877DB92B0BC04E00B8ED40 /* ProfileScreen.swift */; };
 		DC8C18CD2AF6457F0096B7DB /* iOSLab1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C18CC2AF6457F0096B7DB /* iOSLab1App.swift */; };
 		DC8C18CF2AF6457F0096B7DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C18CE2AF6457F0096B7DB /* ContentView.swift */; };
 		DC8C18D12AF645800096B7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8C18D02AF645800096B7DB /* Assets.xcassets */; };
@@ -18,11 +30,17 @@
 		DC8C18E82AF645800096B7DB /* iOSLab1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C18E72AF645800096B7DB /* iOSLab1UITests.swift */; };
 		DC8C18EA2AF645800096B7DB /* iOSLab1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C18E92AF645800096B7DB /* iOSLab1UITestsLaunchTests.swift */; };
 		DCA86F292B0348690054C6D2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DCA86F282B0348690054C6D2 /* Localizable.xcstrings */; };
+		DCC9A6D22B072ECB001D8828 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9A6D12B072ECB001D8828 /* CustomTabBar.swift */; };
+		DCD785042B0752E000FD2DB9 /* SystemDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD785032B0752E000FD2DB9 /* SystemDesign.swift */; };
+		DCD785062B07552300FD2DB9 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD785052B07552300FD2DB9 /* Sizes.swift */; };
+		DCD785092B075D5600FD2DB9 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD785082B075D5600FD2DB9 /* HeaderModel.swift */; };
+		DCD7850B2B0768E300FD2DB9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7850A2B0768E300FD2DB9 /* Images.swift */; };
+		DCD785102B0769CE00FD2DB9 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7850F2B0769CE00FD2DB9 /* HeaderData.swift */; };
 		DCD78B142AFF96700027BC03 /* UserHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD78B132AFF96700027BC03 /* UserHeader.swift */; };
-		DCD78B202AFF9D9F0027BC03 /* CardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */; };
-		DCDE35852B03CA660097CD10 /* SearchElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35842B03CA660097CD10 /* SearchElement.swift */; };
-		DCDE35872B03D34D0097CD10 /* CategoryElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35862B03D34D0097CD10 /* CategoryElement.swift */; };
-		DCDE35892B050F0D0097CD10 /* DoctorListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35882B050F0D0097CD10 /* DoctorListElement.swift */; };
+		DCD78B202AFF9D9F0027BC03 /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD78B1F2AFF9D9F0027BC03 /* CardComponent.swift */; };
+		DCDE35852B03CA660097CD10 /* SearchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35842B03CA660097CD10 /* SearchComponent.swift */; };
+		DCDE35872B03D34D0097CD10 /* CategoryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35862B03D34D0097CD10 /* CategoryComponent.swift */; };
+		DCDE35892B050F0D0097CD10 /* DoctorListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE35882B050F0D0097CD10 /* DoctorListComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +61,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC2BDC762B0B0B5F00B9E54C /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		DC2BDC782B0B145100B9E54C /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		DC2BDC7A2B0B14A000B9E54C /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
+		DC63685F2B0925A40000DACC /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		DC6368612B0926170000DACC /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		DC7D2C422B05FC6A00BF4D0E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		DC7D2C432B05FC6A00BF4D0E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		DC7D2C442B05FC6A00BF4D0E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		DC877DAC2B0B82E400B8ED40 /* DoctorListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListData.swift; sourceTree = "<group>"; };
+		DC877DAE2B0B833100B8ED40 /* DoctorListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListModel.swift; sourceTree = "<group>"; };
+		DC877DB02B0BA96200B8ED40 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		DC877DB32B0BBEFE00B8ED40 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		DC877DB52B0BBF5D00B8ED40 /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		DC877DB72B0BC02C00B8ED40 /* MessageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreen.swift; sourceTree = "<group>"; };
+		DC877DB92B0BC04E00B8ED40 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		DC8C18C92AF6457F0096B7DB /* iOSLab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8C18CC2AF6457F0096B7DB /* iOSLab1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLab1App.swift; sourceTree = "<group>"; };
 		DC8C18CE2AF6457F0096B7DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,11 +87,17 @@
 		DC8C18E72AF645800096B7DB /* iOSLab1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLab1UITests.swift; sourceTree = "<group>"; };
 		DC8C18E92AF645800096B7DB /* iOSLab1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLab1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DCA86F282B0348690054C6D2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DCC9A6D12B072ECB001D8828 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		DCD785032B0752E000FD2DB9 /* SystemDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemDesign.swift; sourceTree = "<group>"; };
+		DCD785052B07552300FD2DB9 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		DCD785082B075D5600FD2DB9 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		DCD7850A2B0768E300FD2DB9 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		DCD7850F2B0769CE00FD2DB9 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		DCD78B132AFF96700027BC03 /* UserHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeader.swift; sourceTree = "<group>"; };
-		DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElement.swift; sourceTree = "<group>"; };
-		DCDE35842B03CA660097CD10 /* SearchElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchElement.swift; sourceTree = "<group>"; };
-		DCDE35862B03D34D0097CD10 /* CategoryElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryElement.swift; sourceTree = "<group>"; };
-		DCDE35882B050F0D0097CD10 /* DoctorListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListElement.swift; sourceTree = "<group>"; };
+		DCD78B1F2AFF9D9F0027BC03 /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
+		DCDE35842B03CA660097CD10 /* SearchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComponent.swift; sourceTree = "<group>"; };
+		DCDE35862B03D34D0097CD10 /* CategoryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryComponent.swift; sourceTree = "<group>"; };
+		DCDE35882B050F0D0097CD10 /* DoctorListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +128,23 @@
 		DC7D2C412B05FC5800BF4D0E /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				DC877DB02B0BA96200B8ED40 /* Nunito-Bold.ttf */,
 				DC7D2C432B05FC6A00BF4D0E /* Poppins-Bold.ttf */,
 				DC7D2C442B05FC6A00BF4D0E /* Poppins-Regular.ttf */,
 				DC7D2C422B05FC6A00BF4D0E /* Poppins-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DC877DB22B0BBEEB00B8ED40 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DC877DB32B0BBEFE00B8ED40 /* HomeScreen.swift */,
+				DC877DB52B0BBF5D00B8ED40 /* CalendarScreen.swift */,
+				DC877DB72B0BC02C00B8ED40 /* MessageScreen.swift */,
+				DC877DB92B0BC04E00B8ED40 /* ProfileScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		DC8C18C02AF6457F0096B7DB = {
@@ -123,13 +171,13 @@
 		DC8C18CB2AF6457F0096B7DB /* iOSLab1 */ = {
 			isa = PBXGroup;
 			children = (
+				DC877DB22B0BBEEB00B8ED40 /* Screens */,
+				DCD7850C2B0769A600FD2DB9 /* Data */,
+				DCD785072B075D3F00FD2DB9 /* Models */,
+				DCD785022B07529A00FD2DB9 /* Extensions */,
+				DCD785012B074FBF00FD2DB9 /* Components */,
 				DC8C18CC2AF6457F0096B7DB /* iOSLab1App.swift */,
 				DC8C18CE2AF6457F0096B7DB /* ContentView.swift */,
-				DCD78B132AFF96700027BC03 /* UserHeader.swift */,
-				DCD78B1F2AFF9D9F0027BC03 /* CardElement.swift */,
-				DCDE35842B03CA660097CD10 /* SearchElement.swift */,
-				DCDE35862B03D34D0097CD10 /* CategoryElement.swift */,
-				DCDE35882B050F0D0097CD10 /* DoctorListElement.swift */,
 				DC8C18D02AF645800096B7DB /* Assets.xcassets */,
 				DC8C18D22AF645800096B7DB /* Preview Content */,
 				DCA86F282B0348690054C6D2 /* Localizable.xcstrings */,
@@ -160,6 +208,52 @@
 				DC8C18E92AF645800096B7DB /* iOSLab1UITestsLaunchTests.swift */,
 			);
 			path = iOSLab1UITests;
+			sourceTree = "<group>";
+		};
+		DCD785012B074FBF00FD2DB9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DCD78B132AFF96700027BC03 /* UserHeader.swift */,
+				DCD78B1F2AFF9D9F0027BC03 /* CardComponent.swift */,
+				DCDE35842B03CA660097CD10 /* SearchComponent.swift */,
+				DCDE35862B03D34D0097CD10 /* CategoryComponent.swift */,
+				DCDE35882B050F0D0097CD10 /* DoctorListComponent.swift */,
+				DCC9A6D12B072ECB001D8828 /* CustomTabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DCD785022B07529A00FD2DB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DCD785032B0752E000FD2DB9 /* SystemDesign.swift */,
+				DCD785052B07552300FD2DB9 /* Sizes.swift */,
+				DCD7850A2B0768E300FD2DB9 /* Images.swift */,
+				DC2BDC762B0B0B5F00B9E54C /* Strings.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DCD785072B075D3F00FD2DB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCD785082B075D5600FD2DB9 /* HeaderModel.swift */,
+				DC63685F2B0925A40000DACC /* CardModel.swift */,
+				DC2BDC782B0B145100B9E54C /* CategoryModel.swift */,
+				DC877DAE2B0B833100B8ED40 /* DoctorListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCD7850C2B0769A600FD2DB9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7850F2B0769CE00FD2DB9 /* HeaderData.swift */,
+				DC6368612B0926170000DACC /* CardData.swift */,
+				DC2BDC7A2B0B14A000B9E54C /* CategoryData.swift */,
+				DC877DAC2B0B82E400B8ED40 /* DoctorListData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC877DB12B0BA96200B8ED40 /* Nunito-Bold.ttf in Resources */,
 				DCA86F292B0348690054C6D2 /* Localizable.xcstrings in Resources */,
 				DC7D2C452B05FC6A00BF4D0E /* Poppins-SemiBold.ttf in Resources */,
 				DC7D2C462B05FC6A00BF4D0E /* Poppins-Bold.ttf in Resources */,
@@ -296,13 +391,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD78B202AFF9D9F0027BC03 /* CardElement.swift in Sources */,
+				DC877DAF2B0B833100B8ED40 /* DoctorListModel.swift in Sources */,
+				DC877DB82B0BC02C00B8ED40 /* MessageScreen.swift in Sources */,
+				DC6368622B0926170000DACC /* CardData.swift in Sources */,
+				DC877DB42B0BBEFE00B8ED40 /* HomeScreen.swift in Sources */,
+				DC2BDC7B2B0B14A000B9E54C /* CategoryData.swift in Sources */,
+				DCD785042B0752E000FD2DB9 /* SystemDesign.swift in Sources */,
+				DC2BDC772B0B0B5F00B9E54C /* Strings.swift in Sources */,
+				DC877DBA2B0BC04E00B8ED40 /* ProfileScreen.swift in Sources */,
+				DCD7850B2B0768E300FD2DB9 /* Images.swift in Sources */,
+				DC877DAD2B0B82E400B8ED40 /* DoctorListData.swift in Sources */,
+				DC2BDC792B0B145100B9E54C /* CategoryModel.swift in Sources */,
+				DC877DB62B0BBF5D00B8ED40 /* CalendarScreen.swift in Sources */,
+				DCD78B202AFF9D9F0027BC03 /* CardComponent.swift in Sources */,
+				DC6368602B0925A40000DACC /* CardModel.swift in Sources */,
 				DC8C18CF2AF6457F0096B7DB /* ContentView.swift in Sources */,
-				DCDE35892B050F0D0097CD10 /* DoctorListElement.swift in Sources */,
+				DCDE35892B050F0D0097CD10 /* DoctorListComponent.swift in Sources */,
+				DCC9A6D22B072ECB001D8828 /* CustomTabBar.swift in Sources */,
 				DCD78B142AFF96700027BC03 /* UserHeader.swift in Sources */,
 				DC8C18CD2AF6457F0096B7DB /* iOSLab1App.swift in Sources */,
-				DCDE35872B03D34D0097CD10 /* CategoryElement.swift in Sources */,
-				DCDE35852B03CA660097CD10 /* SearchElement.swift in Sources */,
+				DCDE35872B03D34D0097CD10 /* CategoryComponent.swift in Sources */,
+				DCD785102B0769CE00FD2DB9 /* HeaderData.swift in Sources */,
+				DCD785062B07552300FD2DB9 /* Sizes.swift in Sources */,
+				DCD785092B075D5600FD2DB9 /* HeaderModel.swift in Sources */,
+				DCDE35852B03CA660097CD10 /* SearchComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

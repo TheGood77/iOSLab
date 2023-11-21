@@ -11,24 +11,24 @@ struct ContentView: View {
     var body: some View {
         ScrollView(.vertical) {
             VStack (alignment: .leading) {
-                UserHeader()
-                    .padding(.top, 20)
-                    .padding(.bottom, 32)
-                CardElement()
-                    .padding(.bottom, 20)
-                SearchElement()
-                    .padding(.bottom, 24)
-                CategoryElement()
-                    .padding(.bottom, 32)
-                Text("DoctorListTitle")
-                    .foregroundColor(Color("BlackTextColor"))
-                    .font(.custom("Poppins-SemiBold", size: 16))
-                    .padding(.bottom, 16)
-                DoctorListElement(doctorImageUrl: "SecondDoctorImage", doctorName: "SecondDoctor", doctorPost: "SecondDoctorPost")
-                    .padding(.bottom, 12)
-                DoctorListElement (doctorImageUrl: "DoctorImage", doctorName: "FirstDoctor", doctorPost: "FirstDoctorPost")
+                UserHeader(userData: .constant(HeaderModel.userData))
+                    .padding(.top, paddingSize20)
+                    .padding(.bottom, paddingSize32)
+                CardComponent(cardData: .constant(CardModel.cardData))
+                    .padding(.bottom, paddingSize20)
+                SearchComponent()
+                    .padding(.bottom, paddingSize24)
+                CategoryComponent(categoryData:.constant(CategoryModel.categoryData))
+                    .padding(.bottom, paddingSize32)
+                Text(.doctorListTitle)
+                    .foregroundColor(.blackColor)
+                    .font(.poppinsSemiBold16)
+                    .padding(.bottom, paddingSize16)
+                DoctorListComponent(doctorListData:.constant(DoctorListModel.secondDoctorData))
+                    .padding(.bottom, paddingSize12)
+                DoctorListComponent(doctorListData:.constant(DoctorListModel.firstDoctorData))
             }
-            .padding(.horizontal, 24)
+            .padding(.horizontal, paddingSize24)
         }
     }
 }
